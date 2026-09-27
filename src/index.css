@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .font-comic {
+    font-family: 'Bangers', cursive, sans-serif;
+  }
+}
+
+/* Halftone dot pattern for comic novel aesthetic */
+.comic-halftone {
+  background-image: radial-gradient(rgba(6, 182, 212, 0.15) 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+}
+
+/* Subtle blueprint grid */
+.grid-blueprint {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

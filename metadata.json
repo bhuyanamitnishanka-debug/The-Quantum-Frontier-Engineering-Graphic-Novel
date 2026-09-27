@@ -1,0 +1,6 @@
+{
+  "name": "The Quantum Frontier | Engineering Graphic Novel",
+  "description": "Interactive materials science graphic novel and physics simulator exploring crystal synthesis defects, electron scattering, and atomic engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
